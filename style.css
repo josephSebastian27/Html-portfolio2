@@ -596,8 +596,8 @@ padding: 0%;
     }
     .home-sci{
         justify-content: space-evenly;
-        bottom: 80px;
-        left: 50px;
+        bottom: 20px;
+        left: 60px;
         
     }
     .outline{
@@ -615,7 +615,21 @@ padding: 0%;
         padding-top: 70px;
     }
 }
+.up{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
+.up a{
+font-size: 50px;
+padding: 10px;
+color: var(--main-color);
+}
+.up a:active{
+    color: white;
+    background-color: var(--main-color);
+}
 
 
 @media (max-width:660px){
